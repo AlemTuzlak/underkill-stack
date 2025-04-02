@@ -1,9 +1,10 @@
 import { Links, Meta, Outlet, Scripts } from "react-router";
 import "#app/tailwind.css";
+import "./reset.css.ts";
 
 export default function App() {
   return (
-    <html>
+    <html lang="en">
       <head>
         <Meta />
         <Links />
