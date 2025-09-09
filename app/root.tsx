@@ -2,6 +2,10 @@ import { Links, Meta, Outlet, Scripts } from "react-router";
 import "#app/tailwind.css";
 import "./reset.css.ts";
 
+export const meta = () => [{
+  title: "test"
+}]
+
 export default function App() {
   return (
     <html lang="en">
